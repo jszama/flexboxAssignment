@@ -4,6 +4,7 @@
 
 block, div {
     display: flex;
+    justify-content: center;
 }
 
 #firstBlock {
@@ -15,7 +16,7 @@ block, div {
 }
 
 #topper {
-    flex: 1;
+    flex: auto;
     height: 10%;
     gap: 8px;
     background-color: #1F2937;
@@ -29,7 +30,7 @@ block, div {
 
 #intro {
     display: flex;
-    flex: 1 0 auto;
+    flex: auto;
     align-items: center;
     justify-content: space-between;
     height: 25%;
@@ -41,7 +42,7 @@ block, div {
     flex-direction: column;
     margin: 80px;
     border: 2px solid red;
-    flex: 1;
+    flex: auto;
 
 }
 
@@ -52,10 +53,8 @@ block, div {
 }
 
 #introImage {
-    flex: 1;
-    align-items: center;
+    flex: auto;
     width: 50%;
-    height: 50%;
     border: 2px solid red;
     margin: 80px;
 }
